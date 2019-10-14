@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+   
+}
+ .mynav{
+    height: 90px;
+    background-color: white !important;
+    box-shadow: 1px 0px 2px gray;
+    
+}
+.nav-item{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #384158 !important;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 10px;
+}
+.active{
+  color:   #007bff !important;
+  border-bottom: 4px solid #007bff;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
