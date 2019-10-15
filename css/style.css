@@ -16,7 +16,7 @@ body {
     -webkit-font-smoothing: antialiased;
     margin-left: 10px;
 }
-.active{
+.active-nav-item{
   color:   #007bff !important;
   border-bottom: 4px solid #007bff;
 }
@@ -62,4 +62,13 @@ align-items: center;
     transform: translateX(-50%);
  }
  
- 
+ .jumbotron{
+   padding : 0;
+ }
+ .carousel-caption{
+   transform: translate(0,-200px);
+
+ }
+ .carousel-caption h1{
+   text-shadow: 0 0 1px black;
+ }
