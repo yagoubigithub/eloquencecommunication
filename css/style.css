@@ -25,6 +25,24 @@ body {
   }
   
   .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
       pointer-events: none;
   }
+  .dropdown-item:hover{
+    background: #007bff !important;
+    color: white !important;
+  }
+  .header{
+background: #007bff;
+color : white;
+height : 30px;
+  }
+ 
+  .courses-dropdown-item:hover  .courses-dropdown{
+    display: flex;
+  }
+
+  .justify-content-center .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ 
