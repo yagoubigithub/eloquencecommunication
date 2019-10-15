@@ -74,3 +74,25 @@ align-items: center;
    text-shadow: 0 0 1px black;
    background: rgba(0,0,0,0.3);
  }
+ .news{
+   display: flex;
+   justify-content: center;
+   padding : 5px;
+   width: 100%;
+   margin-bottom: 15px;
+ }
+ .news-img{
+   width: 33%;
+ }
+ .news-content{
+   padding-left: 15px;
+ }
+ .news-content h6{
+   font-weight: bolder;
+   margin :0;
+   margin-bottom: 4px;
+ }
+ .news-content p{
+  font-size: 14px;
+  color: rgba(0,0,0,0.7);
+}
