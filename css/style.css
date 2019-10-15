@@ -35,6 +35,22 @@ body {
 background: #007bff;
 color : white;
 height : 30px;
+display: flex;
+padding-left: 5%;
+font-size: 14px;
+font-weight: 100;
+
+align-items: center;
+;
+  }
+  .header div{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .header  > span{
+    width : 0;
+    height : 80%;
+    border-left : 1px solid rgba(0,0,0,0.3);
   }
  
   .courses-dropdown-item:hover  .courses-dropdown{
@@ -45,4 +61,5 @@ height : 30px;
     left: 50%;
     transform: translateX(-50%);
  }
+ 
  
