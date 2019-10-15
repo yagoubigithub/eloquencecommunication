@@ -64,6 +64,7 @@ align-items: center;
  
  .jumbotron{
    padding : 0;
+   padding-bottom: 100px;
  }
  .carousel-caption{
    transform: translate(0,-200px);
@@ -71,4 +72,5 @@ align-items: center;
  }
  .carousel-caption h1{
    text-shadow: 0 0 1px black;
+   background: rgba(0,0,0,0.3);
  }
