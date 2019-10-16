@@ -17,8 +17,8 @@ body {
     margin-left: 10px;
 }
 .active-nav-item{
-  color:   #007bff !important;
-  border-bottom: 4px solid #007bff;
+  color:   #14bdee !important;
+  border-bottom: 4px solid #14bdee;
 }
 .dropdown:hover>.dropdown-menu {
     display: block;
@@ -28,13 +28,13 @@ body {
       pointer-events: none;
   }
   .dropdown-item:hover{
-    background: #007bff !important;
+    background: #14bdee !important;
     color: white !important;
   }
   .header{
-background: #007bff;
+background: #14bdee;
 color : white;
-height : 30px;
+height : 40px;
 display: flex;
 padding-left: 5%;
 font-size: 14px;
@@ -96,3 +96,113 @@ align-items: center;
   font-size: 14px;
   color: rgba(0,0,0,0.7);
 }
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  background: gray;
+}
+.btn-circle:hover{
+  background: #14bdee;
+}
+
+.btn-circle span {
+  position: relative;
+  top: 2px;
+  left : -2px
+}
+
+.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+}
+
+.btn-circle-lg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+.section_title{
+  text-align: center!important;
+ 
+    font-weight: 700;
+    color: #384158;
+    line-height: 1.2;
+    font-size: 36px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.section_sub_title{
+  
+    font-size: 14px;
+    line-height: 1.85;
+    font-weight: 400;
+    color: #76777a;
+    text-align: center;
+    width : 70%;
+    margin-top: 25px;
+}
+
+/*xs*/
+
+@media (max-width: 576px) { 
+  #homeCarousel{
+    z-index: -1;
+
+  }
+  .dropdown{
+    background: white;
+  }
+  .navbar-nav{
+    background: white;
+      }
+ }
+/*sm*/
+@media (min-width: 576px) { 
+  #homeCarousel{
+    z-index: -1;
+
+  }
+  .dropdown{
+    background: white;
+  }
+  .navbar-nav{
+    background: white;
+      }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  
+  #homeCarousel{
+    z-index: -1;
+
+  }
+  .dropdown{
+    background: white;
+  }
+  .navbar-nav{
+    background: white;
+      }
+ 
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
