@@ -6,6 +6,8 @@ $(window).resize(function(){
 
            // is mobile device xs
            $('#navbarNavAltMarkup').removeClass('justify-content-center')
+           $('.card').removeClass('mycard')
+
     }     
 
 });
@@ -15,6 +17,7 @@ $(window).resize(function(){
 
            // is mobile device
            $('#navbarNavAltMarkup').removeClass('justify-content-center')
+           $('.card').removeClass('mycard')
     }     
 
 });
@@ -24,6 +27,7 @@ $(window).resize(function(){
 
            // // Medium devices (tablets, 768px and up)
            $('#navbarNavAltMarkup').removeClass('justify-content-center')
+           $('.card').removeClass('mycard')
     }     
 
 });

@@ -6,7 +6,7 @@ body {
     height: 90px;
     background-color: white !important;
     box-shadow: 1px 0px 2px gray;
-    
+   border : 0; 
 }
 .nav-item{
     font-size: 18px !important;
@@ -34,7 +34,7 @@ body {
   .header{
 background: #14bdee;
 color : white;
-height : 40px;
+height : 50px;
 display: flex;
 padding-left: 5%;
 font-size: 14px;
@@ -145,6 +145,7 @@ align-items: center;
     font-size: 36px;
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    margin-bottom: 50px;
 }
 
 .section_sub_title{
@@ -155,48 +156,53 @@ align-items: center;
     color: #76777a;
     text-align: center;
     width : 70%;
-    margin-top: 25px;
+   
+}
+.mycard img{
+  max-height: 220px;
+
+}
+.mycard{
+  width: 300px;
 }
 
 /*xs*/
 
 @media (max-width: 576px) { 
-  #homeCarousel{
-    z-index: -1;
-
-  }
+  
   .dropdown{
     background: white;
+    z-index: 99;
   }
   .navbar-nav{
     background: white;
+    z-index: 99;
       }
+      
  }
 /*sm*/
 @media (min-width: 576px) { 
-  #homeCarousel{
-    z-index: -1;
-
-  }
+ 
   .dropdown{
     background: white;
+    z-index: 99;
   }
   .navbar-nav{
     background: white;
+    z-index: 99;
       }
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {  
-  #homeCarousel{
-    z-index: -1;
-
-  }
+ 
   .dropdown{
     background: white;
+    z-index: 99;
   }
   .navbar-nav{
     background: white;
+    z-index: 99;
       }
  
 }
